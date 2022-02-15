@@ -19,7 +19,7 @@ class _Page3dState extends State<Page3d> {
         width: MediaQuery.of(context).size.width,
         height: MediaQuery.of(context).size.height,
         middleScale: 1,
-        foregroundScale: 1.3,
+        foregroundScale: 1.2,
         backgroundScale: 1.2,
         backgroundWidget: backgroundWidget(),
         middleWidget: middleWidget(),

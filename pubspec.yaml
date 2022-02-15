@@ -35,7 +35,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
 #  flutter_interactional_widget: 1.0.0
-  nayuta_sensors: 1.0.1
+  sensors_plus: 1.2.1
 
 
 
@@ -54,7 +54,7 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 dependency_overrides:
-  nayuta_sensors: 1.0.1
+#  nayuta_sensors: 1.0.1
 
 
 

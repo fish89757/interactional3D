@@ -3,7 +3,7 @@ import 'dart:math';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:nayuta_sensors/sensors_plus.dart';
+import 'package:sensors_plus/sensors_plus.dart';
 
 // ignore: must_be_immutable
 class Interactional3DWidget extends StatefulWidget {
@@ -64,9 +64,6 @@ class _Interactional3DWidgetState extends State<Interactional3DWidget> {
   @override
   void initState() {
     super.initState();
-    gyroscopeEvents.listen((event) {
-      print("传感器信息：x=${event.x} y=${event.y} z=${event.z}");
-    });
     _streamSubscriptions.add(gyroscopeEvents.listen((event) {
       setState(() {
         // 通过采集的旋转速度计算出背景 delta 偏移
